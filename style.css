@@ -5,31 +5,40 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: #f2645c;
 }
 
-body {
-  justify-content: space-around;
+.title {
+  font-size: 70px;
+  text-align: center;
+  color: silver;
+}
+.parent {
   display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.card {
+  font-size: 30px;
+  width: 250px;
+  height: 250px;
+  border-radius: 40px;
+  text-align: center;
 }
 
-.card1 {
-  font-size: 30px;
-  border: 1px solid green;
-  height: 100px;
-  flex-grow: 1;
-  width: 28%;
+.card1,
+.card4,
+.card7 {
+  border: 3px solid green;
 }
-
-.card2 {
-  font-size: 30px;
+.card2,
+.card5,
+.card8 {
   border: 3px solid blue;
-  height: 100px;
-  flex-grow: 1;
 }
 
-.card3 {
-  font-size: 30px;
+.card3,
+.card6,
+.card9 {
   border: 3px solid red;
-  height: 100px;
-  flex-grow: 1;
 }
