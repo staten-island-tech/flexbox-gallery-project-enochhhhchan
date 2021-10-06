@@ -11,12 +11,13 @@ body,
 .title {
   font-size: 90px;
   text-align: center;
-  -webkit-text-stroke: 3px silver;
-  color: f2645c;
+  -webkit-text-stroke: 1px black;
+  color: #f08475;
   background-image: url(img/route-66.png), url(img/route-66.png);
   background-size: 130px;
   background-repeat: no-repeat;
   background-position-x: left, right;
+  font-family: "Pacifico", cursive;
 }
 .parent {
   display: flex;
@@ -46,53 +47,56 @@ body,
 .card1 {
   background-image: url(img/mcqueen.png);
   background-size: 80%;
-  background-position-y: 50px;
+  background-position-y: 100px;
 }
 
 .card2 {
   background-image: url(img/mater.png.crdownload);
-  background-position-y: 40px;
+  background-position-y: 80px;
   background-position-x: -15px;
 }
 
 .card3 {
   background-image: url(img/sally.png);
-  background-position-y: 50px;
+  background-position-y: 110px;
   background-size: 80%;
 }
 
 .card4 {
   background-image: url(img/doc.png);
-  background-position-y: 50px;
+  background-position-y: 90px;
 }
 
 .card5 {
   background-image: url(img/luigi.png);
-  background-position-y: 40px;
+  background-position-y: 100px;
   background-size: 65%;
 }
 
 .card6 {
   background-image: url(img/Guido.png);
-  background-position-y: 40px;
+  background-position-y: 90px;
   background-size: 55%;
   background-position-x: center;
 }
 
 .card7 {
   background-image: url(img/Mack\ 2.png);
-  background-position-y: 40px;
+  background-position-y: 90px;
   background-size: 60%;
   background-position-x: center;
 }
 
 .card8 {
   background-image: url(img/Strip.png);
-  background-position-y: 50px;
+  background-position-y: 90px;
 }
 
 .card9 {
   background-image: url(img/chick.png);
-  background-position-y: 50px;
+  background-position-y: 90px;
   background-size: 155%;
+}
+
+.text {
 }
