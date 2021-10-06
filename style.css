@@ -9,15 +9,27 @@ body,
 }
 
 .title {
-  font-size: 70px;
+  font-size: 90px;
   text-align: center;
-  color: silver;
+  -webkit-text-stroke: 3px silver;
+  color: f2645c;
+  background-image: url(img/route-66.png), url(img/route-66.png);
+  background-size: 130px;
+  background-repeat: no-repeat;
+  background-position-x: left, right;
 }
 .parent {
   display: flex;
   justify-content: space-evenly;
   font-size: 50px;
+  height: 350px;
 }
+
+.parent1 {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .card {
   font-size: 30px;
   width: 300px;
@@ -27,13 +39,60 @@ body,
   border: 3px solid;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 70px;
+  background-position-x: center;
+  background-color: #f08475;
 }
 
 .card1 {
   background-image: url(img/mcqueen.png);
+  background-size: 80%;
+  background-position-y: 50px;
 }
 
 .card2 {
   background-image: url(img/mater.png.crdownload);
+  background-position-y: 40px;
+  background-position-x: -15px;
+}
+
+.card3 {
+  background-image: url(img/sally.png);
+  background-position-y: 50px;
+  background-size: 80%;
+}
+
+.card4 {
+  background-image: url(img/doc.png);
+  background-position-y: 50px;
+}
+
+.card5 {
+  background-image: url(img/luigi.png);
+  background-position-y: 40px;
+  background-size: 65%;
+}
+
+.card6 {
+  background-image: url(img/Guido.png);
+  background-position-y: 40px;
+  background-size: 55%;
+  background-position-x: center;
+}
+
+.card7 {
+  background-image: url(img/Mack\ 2.png);
+  background-position-y: 40px;
+  background-size: 60%;
+  background-position-x: center;
+}
+
+.card8 {
+  background-image: url(img/Strip.png);
+  background-position-y: 50px;
+}
+
+.card9 {
+  background-image: url(img/chick.png);
+  background-position-y: 50px;
+  background-size: 155%;
 }
