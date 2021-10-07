@@ -35,68 +35,73 @@ body,
   font-size: 30px;
   width: 300px;
   height: 300px;
-  border-radius: 40px;
+  border-radius: 30px;
   text-align: center;
   border: 3px solid;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
   background-color: #f08475;
+  box-shadow: initial;
+  box-shadow: 15px 5px 7px red;
 }
 
 .card1 {
   background-image: url(img/mcqueen.png);
   background-size: 80%;
-  background-position-y: 100px;
+  background-position-y: 80px;
 }
 
 .card2 {
   background-image: url(img/mater.png.crdownload);
-  background-position-y: 80px;
+  background-position-y: 50px;
   background-position-x: -15px;
 }
 
 .card3 {
   background-image: url(img/sally.png);
-  background-position-y: 110px;
+  background-position-y: 80px;
   background-size: 80%;
 }
 
 .card4 {
   background-image: url(img/doc.png);
-  background-position-y: 90px;
+  background-position-y: 50px;
 }
 
 .card5 {
   background-image: url(img/luigi.png);
-  background-position-y: 100px;
+  background-position-y: 50px;
   background-size: 65%;
 }
 
 .card6 {
   background-image: url(img/Guido.png);
-  background-position-y: 90px;
+  background-position-y: 50px;
   background-size: 55%;
   background-position-x: center;
 }
 
 .card7 {
   background-image: url(img/Mack\ 2.png);
-  background-position-y: 90px;
+  background-position-y: 50px;
   background-size: 60%;
   background-position-x: center;
 }
 
 .card8 {
   background-image: url(img/Strip.png);
-  background-position-y: 90px;
+  background-position-y: 50px;
 }
 
 .card9 {
   background-image: url(img/chick.png);
-  background-position-y: 90px;
+  background-position-y: 50px;
   background-size: 155%;
 }
 
 .text {
+  margin-top: 180px;
+  border-radius: 10px;
+  background-color: transparent;
 }
