@@ -111,3 +111,28 @@ body,
 .text3 {
   margin-top: 67%;
 }
+
+.card2 {
+  transition: all 2s ease-out;
+}
+
+.card3 {
+  transition: all 2s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.25);
+}
+
+.card3:hover {
+  outline: 5px solid #03c6fc;
+}
+
+.card4 {
+  transition-property: margin-right;
+  transition-duration: 4s;
+}
+
+.card4:hover {
+  font-size: 36px;
+}
