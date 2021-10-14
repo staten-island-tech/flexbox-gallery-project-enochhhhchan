@@ -112,27 +112,29 @@ body,
   margin-top: 67%;
 }
 
-.card2 {
-  transition: all 2s ease-out;
-}
-
-.card3 {
-  transition: all 2s ease-out;
-}
-
-.card:hover {
-  transform: scale(1.25);
+.card1:hover {
+  transform: translate(500px, 0%);
 }
 
 .card3:hover {
   outline: 5px solid #03c6fc;
-}
-
-.card4 {
-  transition-property: margin-right;
-  transition-duration: 4s;
+  background-color: aqua;
 }
 
 .card4:hover {
-  font-size: 36px;
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.card2:hover {
+  transform: skew(140deg, 10deg);
+  background-color: #a8590a;
 }
