@@ -175,8 +175,8 @@ body {
 }
 
 .card6:hover {
-  transform: scale(1.25);
-  transition-duration: 1s;
+  transform: matrix(1, 2, 1, 1, 2, 1);
+  transition-duration: 2s;
   background-color: #3eadb8;
   box-shadow: 15px 5px 7px #07e5fa;
 }
