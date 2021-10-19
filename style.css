@@ -201,3 +201,17 @@ body {
   background-color: #46eba3;
   box-shadow: 15px 5px 7px #1da167;
 }
+
+@media screen and (max-width: 850px) {
+  .card {
+    width: 30%;
+    background-color: #3b93f7;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    height: 80%;
+    background-color: #3bf76a;
+  }
+}
