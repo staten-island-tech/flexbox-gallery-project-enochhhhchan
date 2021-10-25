@@ -201,7 +201,7 @@ body {
   box-shadow: 15px 5px 7px #1da167;
 }
 
-@media screen and (max-width: 851px) {
+@media screen and (max-width: 919px) {
   .card {
     width: 50rem;
     height: 50rem;
