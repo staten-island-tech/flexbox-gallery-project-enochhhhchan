@@ -203,14 +203,7 @@ body {
 
 @media screen and (max-width: 919px) {
   .card {
-    width: 50rem;
-    height: 50rem;
-  }
-  .parent {
-  }
-  .parent2,
-  .parent3 {
-    margin-top: 38rem;
+    background-color: aqua;
   }
 }
 
